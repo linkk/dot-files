@@ -1,0 +1,85 @@
+ls
+6k
+ls
+cd Projects/
+ls
+cd ..
+ls
+6g test.go
+ls
+6l test.go
+6l test.6
+ls
+./6.out 
+ls
+ls
+cd /usr/share/go/src/pkg/os/user/
+ls
+emacs user.go 
+ls
+ls
+cd ~/Projects/gocode/
+cd ..
+cd go
+s
+ls
+cd playground/
+ls
+vi rungorun.sh 
+emacs rungorun.sh 
+./rungorun.sh 
+emacs rungorun.sh 
+./rungorun.sh 
+emacs rungorun.sh 
+./rungorun.sh 
+./rungorun.sh 
+ls
+mv main.go vjezba2.go
+ls
+emacs rungorun.sh 
+./rungorun.sh 
+whereis go
+go -V
+golang-a -V
+6g -V
+6g -Vls
+ls
+./rungorun.sh 
+emacs Projects/ruby/vjezba1.rb 
+ls
+ruby rubygameDemo.rb 
+ruby rubygameDemo.rb 
+ruby vjezba1.rb
+ruby vjezba1.rb
+ruby vjezba1.rb 
+ruby rubygameDemo.rb 
+ruby vjezba1.rb 
+ruby vjezba1.rb 
+ls
+cd ..
+cd jxBot/
+ls
+ruby jxBot.rb 
+ruby jxBot.rb 
+ruby jxBot.rb 
+ruby jxBot.rb 
+cd ..
+ls
+cd exercise/
+ls
+ruby vjezba1.rb 
+ruby readWebSite.rb 
+ruby readWebSite.rb 
+exit
+ls
+ls
+ls
+ls
+ls
+clear
+reset
+ls
+go fmt player.go
+go help
+ls
+neato -Tpng -O test.dot

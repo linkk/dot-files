@@ -1,0 +1,67 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/" . "home/")
+ ("/home/" . "jasox/")
+ ("/home/jasox/.emacs.d/" . "emacs-color-theme-solarized/")
+ ("/home/jasox/" . "testproject/")
+ ("/home/jasox/Projects/" . "lisp-Projects/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/jasox/testproject/"
+ "/home/jasox/"
+ "/home/jasox/.emacs.d/"
+ "/home/jasox/.emacs.d/live-config/"
+ "/home/jasox/.emacs.d/emacs-color-theme-solarized/"
+ "/home/jasox/Projects/lisp-Projects/"
+ "/home/jasox/Documents/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "project.clj"
+ "test.clj"
+ "init.el"
+ "README.md"
+ ".emacs"
+ "solarized-definitions.el"
+ "orc-battle.lisp"
+ "Land of Lisp.pdf"
+ "orcbatt"
+ "mastermind.lisp"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/jasox/" (20345 51537) ".thumbnails/" ".fonts/" ".pki/" ".ssh/" "Music/" ".esd_auth" "savedata_alpha2" ".gnome2_private/" ".adobe/" "#.emacs.d/" ".lein/" ".dbus/" ".erc/" ".ido.last" "workspace/" "firefox/" ".smex-items" ".pulse-cookie" ".gvfs/" ".ICEauthority" "Documents/" ".emacs~" ".Xauthority" "Pictures/" ".gtk-bookmarks" "libXft-2.2.0/" "bbatsov-emacs-prelude-d91e23b/" "Desktop/" ".gnupg/" ".gnome2/" ".libreoffice/" "opt/" ".slime/" ".gegl-0.0/" ".sbcl/" ".bash_history" ".slime-history.eld" ".config/" ".gksu.lock" ".sbclrc" ".fonts.conf" ".bash_profile" ".macromedia/" ".gnus" "../" ".mozilla/" "freetype-2.4.8/" ".bashrc" ".cache/" "quicklisp/" ".gimp-2.6/" "#.emacs" "Projects/" ".profile" "libXft-2.2.0-ubuntu.patch" "Videos/" ".pulse/" ".mission-control/" "Templates/" ".emacs.d/" ".bash_logout" ".fontconfig/" ".java_history" "Downloads/" ".stumpwmrc" ".xchat2/" "Public/" ".VirtualBox/" "swank-clojure/" ".xsession-errors" "Shared/" ".local/" ".icedtea/" ".gstreamer-0.10/" ".recentf" "ants.clj" ".m2/" ".lesshst" "VirtualBox VMs/" "./" "testproject/" ".gconf/" "eclipse/" ".swt/")
+
+ ("/home/jasox/.emacs.d/swank/" (20345 51399) "slime-c3230b2c.el" "slime-c3230b2c.elc" "../" "slime-repl-79b38c83.el" "slime-frame-colors-a24dd450.el" "./")
+
+ ("/home/jasox/testproject/" (20345 138) "classes/" "src/" "lib/" "../" "project.clj" ".gitignore" "README" ".lein-deps-sum" "./" "test/")
+
+ ("/home/jasox/.emacs.d/" (20344 58360) "init.el" "README.md" "lib/" "live-config/" "../" "tmp/" ".gitignore" "config/" "etc/" "./")
+
+ ("/home/jasox/.emacs.d/live-config/" (20344 51233) "yasnippet-conf.el" "lisps-conf.el" "README.md" "ido-conf.el" "auto-complete-conf.el" "highlight-flash-conf.el" "paredit-conf.el" "cosmetic.el" "util-fns.el" "../" "live.el" "hooks.el" "slime-conf.el" "built-in.el" "undo-tree-conf.el" "volatile-highlights-conf.el" "smex-conf.el" "key-chord-conf.el" "./" "clojure-conf.el")
+
+ ("/home/jasox/Projects/lisp-Projects/" (20344 28487) "wumpus.lisp" "graph-util.lisp" "orc-battle.fas" "wumpus.fasl" "mastermind.fasl" "mastermind.lisp" "wizard-game.fasl" "edicl-hunchentoot-c775519/" "../" "graph-util.fasl" "quicklisp.lisp" "generate-graph.fasl" "orc-battle.fasl" "wumpus.fas" "orc-battle.lib" "otthelo.fasl" "wumpus.lib" "otthelo.lisp" "test.dot" "orc-battle.lisp" "./" "wizard-game.lisp")
+
+ ("/home/jasox/Documents/" (20343 52999) "libXft.so.2.2.0" "../" "freetype-infinality.sh" "libcairo2/" "Land of Lisp.pdf" "libXft.so.2" "./")
+
+ ("/home/" (20336 60999) "../" ".Trash-0/" "jasox/" "./" "lost+found/")
+
+ ("/usr/" (20339 43328) "lib32/" "sbin/" "lib/" "share/" "include/" "lost+found/" "./" "src/" "bin/" "../" ".Trash-0/" "games/" "local/")
+
+ ("/usr/share/" (20342 65149) "doc-base/" "emacs/" "debianutils/" "espeak-data/" "cdbs/" "icons/" "gnome-documents/" "xml/" "system-config-printer/" "tabset/" "mibs/" "ca-certificates-java/" "console-setup/" "libnm-gtk/" "liferea/" "file-roller/" "gnome-utils/" "i18n/" "consolefonts/" "mutter/" "gnome-nettool/" "bug/" "libgnomekbd/" "mysql/" "directfb-1.2.10/" "aclocal/" "gnome-screenshot/" "cdrdao/" "webkitgtk-1.0/" "apache2/" "base-files/" "tools/" "numpy/" "icedtea-web/" "PackageKit/" "nm-applet/" "mime-info/" "libgweather/" "gvfs/" "X11/" "desktop-directories/" "alsa/" "debconf/" "libsocialweb/" "gimp/" "printer-driver-escpr/" "binfmts/" "gdb/" "bsd-mailx/" "initscripts/" "vinagre/" "consoletrans/" "gnome-js/" "defoma/" "gnome-power-manager/" "qt4/" "glib-2.0/" "gutenprint/" "mobile-broadband-provider-info/" "sushi/" "desktop-base/" "pam/" "mimelnk/" "ssh/" "apport/" "m17n/" "gtk-engines/" "services/" "gconf/" "insserv/" "file/" "zenity/" "gtksourceview-3.0/" "apps/" "netpbm/" "javascript/" "dput/" "autoconf/" "gdebi/" "images/" "gedit/" "dbus-1/" "ppd/" "caribou/" "gnome-keyring-3/" "installation-report/" "totem/" "common-licenses/" "midi/" "gnome-2.0/" "app-install/" "gnome-bluetooth/" "libgnome-media-profiles/" "dh-autoreconf/" "foo2zjs/" "terminfo/" "epiphany-browser/" "libreoffice/" "lintian/" "equivs/" "gcalctool/" "cli-common/" "aclocal-1.11/" "gnuchess/" "gnome-background-properties/" "help/" "hwdata/" "brasero/" "g15tools/" "pkgconfig/" "telepathy/" "misc/" "debhelper/" "syslinux/" "iptables/" "perl5/" "geoclue-providers/" "wwwconfig-common/" "sgml-base/" "javazi/" "dictionaries-common/" "emacs-snapshot/" "libparse-debianchangelog-perl/" "graphviz/" "xsessions/" "php5/" "GeoIP/" "hunspell/" "pnm2ppa/" "gnome-dictionary/" "gnome-terminal/" "applications/" "pycentral-data/" "guile/" "gnupg/" "groff/" "seed-gtk3/" "initramfs-tools/" "maven-repo/" "fonts/" "speech-dispatcher/" "intltool-debian/" "gdict-1.0/" "hyphen/" "virtualbox/" "mono/" "cups/" "yelp/" "transmission/" "gnome-user-share/" "menu/" "po-debconf/" "python-support/" "plymouth/" "pam-configs/" "tasksel/" "gcj/" "keyrings/" "gnome-video-effects/" "sound-juicer/" "poppler/" "sysv-rc/" "ca-certificates/" "os-prober/" "gnome-sound-recorder/" "cheese/" "zeitgeist/" "pyshared/" "reportbug/" "vino/" "gksu/" "gstreamer-0.10/" "myspell/" "enchant/" "libtool/" "locale/" "dpkg/" "tracker/" "nfs-common/" "linux-sound-base/" "empathy/" "GConf/" "aptitude/" "adduser/" "yelp-xsl/" "python-apt/" "evolution/" "libquvi-scripts/" "eog/" "java/" "texinfo/" "polkit-1/" "samba/" "media-player-info/" "w3m/" "gettext/" "mx/" "python/" "application-registry/" "farsight2/" "games/" "avahi/" "hplip/" "pulseaudio/" "gst-plugins-base/" "libdbi-perl/" "djvu/" "pixmaps/" "glade/" "xmodmap/" "vte/" "calendar/" "nautilus/" "ssl-cert/" "usb_modeswitch/" "rdesktop/" "libvisual-plugins-0.4/" "pkg-config-crosswrapper" "dict/" "base-passwd/" "apt-xapian-index/" "automake-1.11/" "gcr-3/" "man-db/" "libthai/" "vim/" "phpmyadmin/" "sysvinit/" "mousetweaks/" "doc/" "ant/" "nano/" "gnome-session/" "libgphoto2/" "omf/" "gnome/" "idl/" "mono-2.0/" "libtextcat/" "unetbootin/" "xml-core/" "readline/" "gnome-control-center/" "libsensors4/" "sgml/" "kerneloops/" "tcltk/" "themes/" "alsa-base/" "zoneinfo/" "gnome-settings-daemon/" "aspell/" "gjs-1.0/" "evince/" "git-core/" "pygtk/" "pstoedit/" "gtkhtml-4.0/" "gitweb/" "gnome-panel/" "bash-completion/" "backgrounds/" "nautilus-sendto/" "simple-scan/" "dbconfig-common/" "gst-python/" "foo2qpdl/" "snmp/" "ghostscript/" "wallpapers/" "libaudio2/" "sounds/" "exim4/" "splashy/" "acpi-support/" "hal/" "man/" "webkitgtk-3.0/" "grub/" "gnome-packagekit/" "evolution-data-server-3.2/" "ifupdown/" "gstreamer-properties/" "dotnet/" "util-macros/" "devscripts/" "libgksu/" "gnome-applets/" "awk/" "gnome-shell/" "gdm/" "mysql-common/" "gnome-tweak-tool/" "discover/" "apt-listchanges/" "info/" "pyshared-data/" "ppp/" "cl-quicklisp/" "mythes/" "common-lisp/" "gtk-doc/" "seahorse/" "thumbnailers/" "mime/" "ImageMagick-6.6.9/" "perl/" "build-essential/" "foomatic/" "kde4/" "rhythmbox/" "metacity/" "m2300w/" "texmf/" "../" "./")
+
+ ("/usr/share/info/" (20342 2929) "ssip.info.gz" "gnupg1.info.gz" "coreutils.info.gz" "grub-dev.info.gz" "menu.info.gz" "m4.info-2.gz" "wget.info.gz" "automake-1.11.info-1.gz" "gettext.info.gz" "m4.info.gz" "dir.old" "grep.info.gz" "diffutils.info.gz" "automake-1.11.info-3.gz" "sed.info.gz" "bc.info.gz" "emacs-snapshot/" "clx.info.gz" "automake-1.11.info.gz" "./" "grub.info.gz" "automake-1.11.info-2.gz" "mtools.info.gz" "../" "nano.info.gz" "m4.info-1.gz" "time.info.gz" "dir" "wdiff.info.gz" "cpio.info.gz" "gzip.info.gz" "clx.info-1.gz" "gdbm.info.gz" "asdf.info.gz" "gnuchess.info.gz" "rluserman.info.gz" "speech-dispatcher.info.gz" "autosprintf.info.gz" "clx.info-2.gz" "spd-say.info.gz" "find.info.gz" "dc.info.gz")
+
+ ("/home/jasox/.emacs.d/emacs-color-theme-solarized/" (20343 49051) "solarized-light-theme.el" "color-theme-solarized-pkg.el" "solarized-definitions.el" "solarized-dark-theme.el" "../" "color-theme-solarized.el" "./")
+
+ ("/home/jasox/Projects/" (20337 46780) "../" "lisp-Projects/" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

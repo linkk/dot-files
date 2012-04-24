@@ -1,0 +1,90 @@
+;; jasox dot emacs file
+
+(add-to-list 'load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/emacs-color-theme-solarized")
+(add-to-list 'load-path "~/.emacs.d/color-theme")
+(add-to-list 'load-path "~/.emacs.d/slime")
+(add-to-list 'load-path "~/.emacs.d/slime/contrib")
+(add-to-list 'load-path "~/.emacs.d/paredit")
+(add-to-list 'load-path "~/.emacs.d/ace-jump")
+
+(eval-after-load "slime"
+  '(progn
+     (setq slime-lisp-implementations
+	   '((sbcl ("/usr/bin/sbcl"))))
+     (slime-setup '(
+		    slime-autodoc
+		    slime-editing-commands
+		    slime-fancy-inspector
+		    slime-fontifying-fu
+		    slime-fuzzy
+		    slime-indentation
+		    slime-mdot-fu
+		    slime-package-fu
+		    slime-references
+		    slime-repl
+		    slime-sbcl-exts
+		    slime-scratch
+		    slime-xref-browser
+		    ))
+     (slime-autodoc-mode)
+     (setq slime-complete-symbol*-fancy t)
+     (setq slime-complete-symbol-function
+  'slime-fuzzy-complete-symbol)))
+
+(require 'slime)
+
+(autoload 'enable-paredit-mode "paredit"
+  "Turn on pseudo-structural editing of Lisp code."
+    t)
+
+(add-hook 'lisp-mode-hook 'enable-paredit-mode)
+
+(require 'ace-jump-mode)
+(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
+
+(require 'color-theme)
+(setq color-theme-is-global t)
+(require 'color-theme-solarized)
+(color-theme-solarized-light)
+
+;; Look and feel
+(set-face-attribute 'default nil :font "PragmataPro-9")
+(setq font-lock-maximum-decoration t)
+(setq column-number-mode t)
+(global-font-lock-mode t)
+(setq-default font-lock-auto-fontify t)
+(menu-bar-mode -1)
+(toggle-scroll-bar -1)
+(tool-bar-mode -1)
+(set-fringe-mode 'default)
+(setq org-src-fontify-natively t)
+(fset 'yes-or-no-p 'y-or-n-p)
+(setq inhibit-startup-message t)
+;; turn on highlight matching brackets when cursor is on one
+(show-paren-mode 1)
+(set-face-background 'show-paren-match-face (face-background 'default))
+(set-face-foreground 'show-paren-match-face "firebrick")
+(set-face-attribute 'show-paren-match-face nil :weight 'bold)
+(setq show-paren-style 'parenthesis) ; highlight just parens
+
+;; Auto-complete
+(add-to-list 'load-path "~/.emacs.d/auto-complete")
+(require 'auto-complete-config)
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/auto-complete/ac-dict")
+(ac-set-trigger-key "TAB")
+(setq ac-auto-start nil)
+(ac-config-default)
+
+;; Yasnippet
+(add-to-list 'load-path "~/.emacs.d/yasnippet")
+(require 'yasnippet)
+(yas/initialize)
+(yas/load-directory "~/.emacs.d/yasnippet/snippets")
+
+
+;; store all backup and autosave files in the tmp dir
+(setq backup-directory-alist
+      `((".*" . ,temporary-file-directory)))
+(setq auto-save-file-name-transforms
+      `((".*" ,temporary-file-directory t)))

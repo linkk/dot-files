@@ -1,0 +1,6 @@
+# name: for ... range ...; ... 
+# key: forr
+# --
+for ${1:element} := range ${2:collection} {
+  $0
+}

@@ -1,0 +1,6 @@
+# name: type * struct
+# key: struct
+# --
+type ${self} struct {
+  $0
+}

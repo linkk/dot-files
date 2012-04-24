@@ -1,0 +1,6 @@
+# name: main func 
+# key: main
+# --
+func main() {
+	$0
+}

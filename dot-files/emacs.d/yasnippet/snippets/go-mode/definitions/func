@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: func self ... 
+# key: func
+# --
+func ${name}() {
+  $0
+}
