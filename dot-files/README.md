@@ -1,3 +1,3 @@
-Here is how my edited solarized theme looks 
+My emacs dot files
 
-!(http://http://imageshack.us/f/31/githubscreenshto.png)
+Don't forget to add dots when you copy emacs.d emacs in ~/
